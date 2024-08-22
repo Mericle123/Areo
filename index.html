@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Trours and travels </title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Areo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Discover The   
+                            <br>Treasures <b>Hidden</b>  <br>of <b>Bhutan </b></h1>
+                        <a href="#" class="button">Contact us </a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Discover the Top Must-Visit Destinations in Bhutan."</span>
+                            <a href="#about" class="button button--flex button--link home__info-button">
+                                explore <i class="ri-arrow-down-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About Areo Bhutan Tours</h2>
+                        <p class="about__description">Discover Bhutan’s stunning landscapes and rich culture at great prices. Choose your destination, and we’ll handle the rest. Book now to start your unforgettable journey!
+                        </p>
+                        <a href="#" class="button">Reserve a place</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about3.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about4.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                    <div class="about__data">
+                        <h1 class="section__title about__title">What We Offer ?</h1>
+                        <p class="about__description">We create personalized travel experiences to suit your interests, from peaceful getaways to adventurous trips, cultural journeys, and luxury stays—ensuring the perfect trip for your travel dreams.
+                        </p>
+                        <h1 class="section__title about__title">Why Choose Us <br> </h1>
+                        <p class="about__description">We craft personalized travel experiences tailored to your preferences, offering serene getaways, thrilling adventures, cultural journeys, and luxury stays to fulfill your travel dreams.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+          
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Travels</h2>
+                                <span class="discover__description">Discover tradition </span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Tour </h2>
+                                <span class="discover__description">Find your peace </span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Explore </h2>
+                                <span class="discover__description">Enjoy the rich experience</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Discover </h2>
+                                <span class="discover__description">Enjoy the fresh experience </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Passion<br> We Bring You <br>New Beginnings</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">10+</h2>
+                            <span class="experience__description">Unique<br>Tours</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">30+</h2>
+                            <span class="experience__description">Enchanting 
+                                 <br> Destinations</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">50+</h2>
+                            <span class="experience__description">Happy 
+                                 <br> Travelers</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Can Place</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Thimphu</h3>
+                                <span class="place__subtitle">6+ tours </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Punakha</h3>
+                                <span class="place__subtitle">4+ tours</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                   
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Paro Valley</h3>
+                                <span class="place__subtitle">4+ tours </span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Bumthang</h3>
+                                <span class="place__subtitle">4+ tours</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Phobjikha Valley</h3>
+                                <span class="place__subtitle">2+ tours</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                        <!--==================== PLACES CARD 6 ====================-->
+                        <div class="place__card">
+                            <img src="assets/img/place6.jpeg" alt="" class="place__img">
+                            
+                            <div class="place__content">
+                                <span class="place__rating">
+                                </span>
+    
+                                <div class="place__data">
+                                    <h3 class="place__title">Haa Valley</h3>
+                                    <span class="place__subtitle">2+ tours</span>
+                                </div>
+                            </div>
+    
+                            
+                        </div>
+                            <!--==================== PLACES CARD 7 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place7.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Trongsa</h3>
+                                <span class="place__subtitle">2+ tours</span>
+                            </div>
+                        </div>
+
+                    </div>
+                            <!--==================== PLACES CARD 8 ====================-->
+                            <div class="place__card">
+                                <img src="assets/img/place8.jpeg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                    </span>
+        
+                                    <div class="place__data">
+                                        <h3 class="place__title">Wangdue Phodrang</h3>
+                                        <span class="place__subtitle">2+ tours</span>
+                                    </div>
+                                </div>
+        
+                                
+                            </div>
+                            <!--==================== PLACES CARD 9 ====================-->
+                            <div class="place__card">
+                                <img src="assets/img/place9.jpeg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                    </span>
+        
+                                    <div class="place__data">
+                                        <h3 class="place__title">Mongar</h3>
+                                        <span class="place__subtitle">2+ tours</span>
+                                    </div>
+                                </div>
+        
+                                
+                            </div>
+                            <!--==================== PLACES CARD 10 ====================-->
+                            <div class="place__card">
+                                <img src="assets/img/place10.jpeg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                    </span>
+        
+                                    <div class="place__data">
+                                        <h3 class="place__title">Lhuentse</h3>
+                                        <span class="place__subtitle">2+ tours</span>
+                                    </div>
+                                </div>
+        
+                                
+                            </div>
+                            <!--==================== PLACES CARD 11 ====================-->
+                            <div class="place__card">
+                                <img src="assets/img/place11.jpeg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                    </span>
+        
+                                    <div class="place__data">
+                                        <h3 class="place__title">Trashigang</h3>
+                                        <span class="place__subtitle">2+ tours</span>
+                                    </div>
+                                </div>
+        
+                                
+                            </div>
+                            <!--==================== PLACES CARD 12 ====================-->
+                            <div class="place__card">
+                                <img src="assets/img/place12.jpg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                    </span>
+        
+                                    <div class="place__data">
+                                        <h3 class="place__title">Samdrup Jongkhar</h3>
+                                        <span class="place__subtitle">2+ tours</span>
+                                    </div>
+                                </div>
+        
+                            </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title"><Strong style="font-size: 24px;">Areo</Strong> 
+                              <br> Tours And Travels</h2>
+                        <p class="subscribe__description">At Areo Tours and Travels, we are passionate about delivering
+                            exceptional travel experiences tailored to your <br>desires.  Our goalis to 
+                            help you explore the world’s most captivating destinations with ease and 
+                            comfort, <br>providing  personalized service every step of the way. <br><br> 
+                            
+                            Areo Tours and Travels was founded with a vision to 
+                            make travel accessible and enjoyable for everyone.<br>Our journey began with 
+                            a shared love for discovering new places and cultures.We realized that 
+                            there was<br> a need for a travel company that combined local expertise with
+                            personalized service, and thus, <br>Areo Tours and Travels was born.
+                        </p>
+                        <h2 class="section__title subscribe__title"><Strong style="font-size: 24px;">Our  Location</Strong></h2>
+                        <form action="" class="subscribe__form">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56675.73290264365!2d89.43725105000003!3d27.399649949999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e19de85a6c39b7%3A0x1fa780f5a070190!2sParo!5e0!3m2!1sen!2sbt!4v1724347182159!5m2!1sen!2sbt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h1 class="section__title about__title">Ready To Plan Your 
+                            <br>Next Adventure? </h1>
+                            <p class="about__description">Reach us to discuss your travel plans and find out how we can create 
+                                an extraordinary journey for you. Don’t forget to follow us on social 
+                                media for updates on our latest tours and travel tips. Explore our 
+                                website to discover more about our services and start planning your
+                                dream trip. <br> <br>
+                                
+                                Reach out to us today to experience the unique <strong>Areo</strong> Tours and 
+                                Travels touch and embark on an unforgettable journey !!</p>
+                            </p>
+                        </div>
+                        <div class="about__img">
+                            <div class="about__img-overlay">
+                                <img src="assets/img/about5.jpg" alt="" class="about__img-two">
+                            </div>
+                        </div>
+                </div>
+                
+            </section>
+            
+          
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Travel</h3>
+                        <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience.
+                        </p>
+                        <div>
+                          
+                            <a href="#home">
+                                <img src="assets/img/Rlogo.png" style="width: 90%; height: 90%; transition: box-shadow 0.3s ease;" 
+                                     onmouseover="this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.5)';" 
+                                     onmouseout="this.style.boxShadow='none';" class="">
+                            </a>
+                            
+                            
+                        
+
+                           
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                           
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Discover</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link">Team</a>
+                            </li>
+                         
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Contact us </h3>
+                        <ul>
+                            <li class="footer__item">
+                                <p>+975 77883232</p>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Instagram </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Facebook</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Whats App  </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Telegram</a>
+                            </li>
+                        </ul>
+                    </div>
+                 
+                    
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; Areo Tours & Travels © 2024 / All rights reserved.</p>
+                    <div class="footer__terms">
+                        <a href="https://www.instagram.com/_n.gyeltshen/" class="footer__terms-link">Credit to Nawang Gyeltshen </a>
+                        <a href="#" class="footer__terms-link">&  karma wangchuk</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
